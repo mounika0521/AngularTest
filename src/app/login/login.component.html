@@ -1,0 +1,45 @@
+<div class="section">
+  <img class="logo-height" src="https://mma.prnewswire.com/media/1733224/Certification_Badge.jpg" alt="">
+  <div class="container align-middle">
+
+  <div class="row">
+    <div class="col-md-3">
+      <!-- <div class="p-3">
+        <img src="https://www.pngkey.com/png/detail/367-3670153_user-login-gif-images-for-login.png" alt="User Login" class="img-responsive img-height" >
+        <h1 class="text-white">Sign in to get access</h1>
+      </div> -->
+    </div>
+    <div class="col-md-6">
+      <img class="img-responsive img-height" src="https://www.mouritech.com/wp-content/uploads/2021/10/Logo-Edit-Final-Oct-12.png" alt="">
+
+      <div class="p-3  bg-color">
+        <h3 class="text-center text-color"><b>Techno Health - Login</b></h3>
+        <form [formGroup]="loginForm">
+            <input type="text" class="form-control" placeholder="Enter Username" formControlName="user"><br>
+            <input type="password"  class="form-control" placeholder="Enter Password" formControlName="password"><br>
+           <div class="row">
+            <div class="col-md-6">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" formControlName="rememberPassword">
+                <label class="form-check-label" for="flexCheckDefault">
+                 Remember Password
+                </label>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <p class="text-end"><a>Forgot Password?</a></p>
+            </div>
+           </div>
+           <div class="text-center">
+            <button type="submit" class="btn btn-login btn-lg" [disabled]="!loginForm.valid" (click)="loginUser()" routerLink="/dashboard">Login</button>
+          </div>
+        </form>
+      </div>
+
+    </div>
+    <div class="col-md-3">
+
+    </div>
+  </div>
+</div>
+</div>

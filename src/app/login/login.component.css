@@ -1,0 +1,38 @@
+.section{
+  background-color: #e2ebee;
+  height: 100vh;
+}
+.bg-color{
+  background-color: #ffffff;
+  position: relative;
+  top: 10%;
+}
+.img-height{
+  height:50px;
+  display: block;
+  margin-left:auto;
+  margin-right: auto;
+  margin-top:70px
+}
+.btn-login{
+  background-color: #21214f;
+  color:#ffffff;
+  font-size:16px;
+}
+/* .text-align-left{
+  text-align: right;
+} */
+input.ng-touched.ng-invalid{
+  border: 1px solid red;
+}
+input.ng-touched.ng-valid{
+  border: 1px solid green;
+}
+.text-color{
+  color:#21214f;
+  font-weight: 800;
+}
+.logo-height{
+  height:180px;
+  float:right;
+}
