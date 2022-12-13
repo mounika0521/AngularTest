@@ -4,8 +4,28 @@ margin-left:20px;
 cursor:pointer
 }
 .card-shadow{
-  box-shadow: 0 0px 3px 0 rgba(0,0,0,0.2),0 2px 10px 0 rgba(0,0,0,0.19) !important;
+  box-shadow: 0px 0 30px rgb(1 41 112 / 10%);}
+.bg-blue{
+  background-color: #21214f;
 }
-*{
-  background-color:#e2ebee;
+.bg-color{
+  background-color: #e2ebee;
 }
+/* .dashboard{
+  border-left: 4px solid #0d416b;
+} */
+.dashboard h6{
+  font-size: 28px;
+  color: #012970;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+}
+.card-title {
+  padding: 0px 0 0px 0;
+  font-size: 18px;
+  font-weight: 500;
+  color: #ef4048;
+  font-family: "Poppins", sans-serif;
+}
+
